@@ -1,0 +1,5 @@
+com\niit\shopingcart\SupplierDAOTestCase.class
+com\niit\shopingcart\CategoryTestCase.class
+com\niit\shopingcart\ProductDAOTestCase.class
+com\niit\shopingcart\TestConfiguration.class
+com\niit\shopingcart\UserDAOTestCase.class
