@@ -42,9 +42,9 @@ public class CategoryTestCase {
 	public void saveCategoryTestCase()
 	{
 		category = new Category();
-		category.setId("WoMenCategory001");
-		category.setName("Women");
-		category.setDescription("This is Women category");
+		category.setId("Bookes001");
+		category.setName("Book");
+		category.setDescription("This is Book category");
 		
 	  boolean status = 	categoryDAO.save(category);
 	  

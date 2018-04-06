@@ -33,7 +33,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 	public boolean save(Category category) {
 		// store in the database.
 		try {
-			sessionFactory.getCurrentSession().save(category);
+			sessionFactory.getCurrentSession().saveOrUpdate(category);
 			return true;
 		} catch (HibernateException e) {
 			// TODO Auto-generated catch block
